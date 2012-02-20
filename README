@@ -1,0 +1,12 @@
+The McGill Planar Hydrogen Atmosphere Code (McPHAC)
+
+
+To compile, make any needed changes to 'Makefile', and then type 'make
+McPHAC'.
+
+McPHAC takes commonly changed physical and computational parameters as
+input arguments, and for convenience these can be set in in the script
+'McPHAC.bash', which then allows running McPHAC with "./McPHAC.bash".
+
+Each function is contained in a seperate file named after that
+function, with the exeption of 'McPHAC.c', which contains main().
