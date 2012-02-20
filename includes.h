@@ -8,7 +8,7 @@ double  TEFF;     // Target effective temperature, K
 double  GSURFACE; // Surface gravitational acceleration, cm s-2
 
 // Computational parameters  (external variables set by input)
-double  MINCOL;   // Min. log(y) considered forr Teff=10^6.5K
+double  MINCOL;   // Min. log(y) considered for Teff=10^6.5K
 double  MAXCOL;   // Initial max. log(y), increased if necessary to meet MAXTAUTAU criterion
 int  NDEPTHS;     // Initial number of depths points in the temperature correction
 int  MAXFACTOR;   // Maximum factor to multiply NDEPTHS by (NDEPTHS doubled until and including this factor)
